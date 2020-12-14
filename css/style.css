@@ -1400,7 +1400,8 @@ img {
 }
 .center {
   text-align: center;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* html */
 .jumbo,
@@ -1442,7 +1443,16 @@ img {
   filter: sepia(100%);
   cursor: pointer;
 }
-
+@media screen and (max-width: 1000px) {
+  .gallery-content {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .gallery-content {
+    grid-template-columns: auto;
+  }
+}
 ul {
   text-align: right;
 }
@@ -1471,10 +1481,10 @@ a:hover {
 .card-item p {
   color: #a1a1a1;
 }
+
 .caption {
   font-size: 0.7rem;
   opacity: 0.8;
-  font-style: italic;
   font-weight: 400;
   margin: 0;
 }
