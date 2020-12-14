@@ -1472,3 +1472,7 @@ a:hover {
   opacity: 0.8;
   font-weight: 700;
 }
+
+.icon {
+  width: 50px;
+}
