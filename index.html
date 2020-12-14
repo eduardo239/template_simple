@@ -13,12 +13,12 @@
         <div class="row">
           <div class="cols-12">
             <div class="row v-center">
-              <div class="cols-4 orange"><h2>LOGO</h2></div>
+              <div class="cols-4 orange"><h2 class="px-1">LOGO</h2></div>
               <div class="cols-8">
                 <ul>
                   <li><a href="#">HOWE</a></li>
-                  <li><a href="#">ABOUT</a></li>
-                  <li><a href="#">CONTACT</a></li>
+                  <li><a href="#about">ABOUT</a></li>
+                  <li><a href="#contact">CONTACT</a></li>
                 </ul>
               </div>
             </div>
@@ -26,23 +26,25 @@
         </div>
       </div>
       <!-- end nav -->
-      <div class="row">
+      <div>
         <div class="container">
-          <div class="cols-12 jumbo light py-5">
-            <h1 class="center py-2">
-              YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES
-            </h1>
-            <!--  -->
-            <div class="divider"><span class="bg-orange"></span></div>
+          <div class="row">
+            <div class="cols-12 jumbo light py-5">
+              <h1 class="center py-2">
+                YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES
+              </h1>
+              <!--  -->
+              <div class="divider"><span class="bg-orange"></span></div>
 
-            <p class="center py-2">
-              Start Bootstrap can help you build better websites using the
-              Bootstrap framework! Just download a theme and start customizing,
-              no strings attached!
-            </p>
-            <!--  -->
-            <div class="center">
-              <button class="rounded-button bg-orange light">FIND ME</button>
+              <p class="center py-2">
+                Start Bootstrap can help you build better websites using the
+                Bootstrap framework! Just download a theme and start
+                customizing, no strings attached!
+              </p>
+              <!--  -->
+              <div class="center">
+                <button class="rounded-button bg-orange light">FIND ME</button>
+              </div>
             </div>
           </div>
         </div>
@@ -51,12 +53,12 @@
     <!-- jumbo -->
 
     <!-- message -->
-    <div class="row">
+    <div id="about">
       <div class="cols-12 bg-orange light message py-5">
         <h3 class="center">We've got what you need!</h3>
         <!--  -->
         <div class="divider"><span class="bg-light"></span></div>
-        <p class="center py-3">
+        <p class="center py-3 px-2">
           Start Bootstrap has everything you need to get your new website up and
           running in no time! Choose one of our open source, free to download,
           and easy to use themes! No strings attached!
@@ -64,7 +66,7 @@
       </div>
     </div>
     <!-- quality -->
-    <div class="row">
+    <div>
       <div class="cols-12 quality py-5">
         <h3>We've got what you need!</h3>
         <!--  -->
@@ -72,7 +74,7 @@
         <div class="container">
           <div class="row mt-3">
             <div class="cols-4 center">
-              <div class="py-4 px-2 bg-orange">
+              <div class="py-4 px-2 m-1 card-item">
                 <small
                   ><img class="icon" src="./ico/web-news.svg" alt="template"
                 /></small>
@@ -81,7 +83,7 @@
               </div>
             </div>
             <div class="cols-4 center">
-              <div class="py-4 px-2 bg-white">
+              <div class="py-4 px-2 m-1 card-item">
                 <small
                   ><img class="icon" src="./ico/recycle.svg" alt="template"
                 /></small>
@@ -90,7 +92,7 @@
               </div>
             </div>
             <div class="cols-4 center">
-              <div class="py-4 px-2 bg-orange light">
+              <div class="py-4 px-2 m-1 card-item">
                 <small
                   ><img class="icon" src="./ico/protected.svg" alt="template"
                 /></small>
@@ -104,7 +106,7 @@
     </div>
     <!-- gallery -->
     <div class="container">
-      <div class="row gallery py-5">
+      <div class="gallery">
         <div class="cols-12">
           <div class="gallery-content">
             <div class="cell"><img src="./img/ft.png" alt="template" /></div>
@@ -113,7 +115,6 @@
             <div class="cell"><img src="./img/ft4.png" alt="template" /></div>
             <div class="cell"><img src="./img/ft5.png" alt="template" /></div>
             <div class="cell"><img src="./img/ft6.png" alt="template" /></div>
-
             <!--  -->
           </div>
         </div>
@@ -137,39 +138,41 @@
     </div>
 
     <!-- contact -->
-    <div class="row py-5">
-      <div class="cols-12 center">
-        <h3>Let's Get In Touch!</h3>
+    <div class="container">
+      <div class="row">
+        <div class="cols-12 center">
+          <h3>Let's Get In Touch!</h3>
+        </div>
+        <!--  -->
+        <div class="divider"><span class="bg-orange"></span></div>
+        <!--  -->
+        <p class="center px-2">
+          Ready to start your next project with us? Give us a call or send us an
+          email and we will get back to you as soon as possible!
+        </p>
       </div>
-      <!--  -->
-      <div class="divider"><span class="bg-orange"></span></div>
-      <!--  -->
-      <p class="center">
-        Ready to start your next project with us? Give us a call or send us an
-        email and we will get back to you as soon as possible!
-      </p>
-      <div class="cols-12 center py-4">
-        <div class="cols-6 p-3 mx-3">
-          <small
-            ><img class="icon" src="./ico/phone.svg" alt="template"
-          /></small>
+      <div class="row">
+        <div class="cols-6 center py-5">
+          <p><img class="icon" src="./ico/phone.svg" alt="template" /></p>
           <p class="mt-2">+1 (555) 123-4567</p>
         </div>
-        <div class="cols-6 p-3 mx-3">
-          <small
-            ><img class="icon" src="./ico/thumb-up.svg" alt="template"
-          /></small>
+        <div class="cols-6 center py-5">
+          <p><img class="icon" src="./ico/thumb-up.svg" alt="template" /></p>
           <p class="mt-2">contact@yourwebsite.com</p>
         </div>
       </div>
-      <div class="cols-12 center">
-        <!--  -->
-        <p class="caption">Photo by Marta Filipczyk on Unsplash</p>
-        <p class="caption">Photo by lucas mendes on Unsplash</p>
-        <p class="caption">Photo by Cassidy Kelley on Unsplash</p>
-        <p class="caption">Photo by Veronika Jorjobert on Unsplash</p>
-        <p class="caption">Photo by Katie Az on Unsplash</p>
-        <p class="caption">Photo by Priscilla Du Preez on Unsplash</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="cols-12 center">
+          <!--  -->
+          <p class="caption">Photo by Marta Filipczyk on Unsplash</p>
+          <p class="caption">Photo by lucas mendes on Unsplash</p>
+          <p class="caption">Photo by Cassidy Kelley on Unsplash</p>
+          <p class="caption">Photo by Veronika Jorjobert on Unsplash</p>
+          <p class="caption">Photo by Katie Az on Unsplash</p>
+          <p class="caption">Photo by Priscilla Du Preez on Unsplash</p>
+        </div>
       </div>
     </div>
   </body>
