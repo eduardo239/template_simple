@@ -1,0 +1,135 @@
+:root {
+  --primary: #fede00;
+  --primary-alt: #ffc400;
+  --tertiary: #6ab8ee;
+  --tertiary-alt: #3a8eca;
+
+  --white: #fff;
+  --black: #000;
+  --gray-10: #f4f4f4;
+  --gray-90: #262626;
+  --gray-100: #161616;
+}
+
+html {
+  font-size: 100%;
+} /*16px*/
+
+body {
+  font-weight: 400;
+  line-height: 1.75;
+  font-weight: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: var(--black);
+  color: var(--white);
+  font-family: 'IBM Plex Mono', Arial, Helvetica, sans-serif;
+  letter-spacing: 0.36px;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 2rem 0 1.38rem;
+  font-weight: 400;
+  font-family: 'STIX Two Math', Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052rem;
+}
+
+h2 {
+  font-size: 2.441rem;
+}
+
+h3 {
+  font-size: 1.953rem;
+}
+
+h4 {
+  font-size: 1.563rem;
+  padding-top: 1rem;
+}
+h4::before {
+  content: '';
+  display: inline-block;
+  height: 2px;
+  width: 16px;
+  background-color: var(--primary);
+  margin-right: 1rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+small,
+.text_small {
+  font-size: 0.8rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.ss {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.cs {
+  font-family: 'STIX Two Math', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  background-color: transparent;
+  padding: 10px;
+  min-width: 15rem;
+  border: none;
+  outline: none;
+  font-family: 'IBM Plex Mono', monospace;
+  transition: 0.1s ease-in-out;
+  border: 2px solid transparent;
+  border-radius: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button:hover {
+  cursor: pointer;
+  filter: brightness(120%);
+}
+.button--primary {
+  color: var(--black);
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    var(--primary) 0%,
+    var(--primary-alt) 90%
+  );
+}
+.button--primary:hover {
+  border: 2px dashed var(--black);
+}
+.button--primary:active {
+}
+.button--secondary {
+  color: var(--white);
+  background-color: var(--black);
+}
+.button--secondary:hover {
+  border: 2px dashed var(--white);
+}
+.button--secondary:active {
+}

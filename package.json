@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8"
+  },
+  "name": "portfolio",
+  "description": "meu portfolio",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "build": "babel src -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardo239/eduardo239.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "web",
+    "designer",
+    "frontend"
+  ],
+  "author": "Eduardo Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardo239/eduardo239.github.io/issues"
+  },
+  "homepage": "https://github.com/eduardo239/eduardo239.github.io"
+}
